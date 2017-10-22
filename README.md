@@ -1,4 +1,5 @@
-# Learning Reinforcement-learning
+# Learning to Reinforce
+ Work in learning how to do some Reinforcement-learning
 
 
 ## Authors
