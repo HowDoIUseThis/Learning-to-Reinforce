@@ -60,6 +60,7 @@ def state_values():
     plt.xlabel('State')
     plt.ylabel('State Value')
     plt.legend()
+    plt.title('Estimated value using TD(0)')
 
 
 def calc_RMS_err():
@@ -87,6 +88,7 @@ def calc_RMS_err():
     plt.xlabel('Walks/episodes')
     plt.ylabel('Error')
     plt.legend()
+    plt.title("Empirical RMS error, averaged over states")
 
 
 if __name__ == '__main__':
